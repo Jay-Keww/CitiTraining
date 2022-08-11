@@ -2,9 +2,11 @@
 
 # quick installation start
 
+git init
+
 git remote add upstream git@github.com:Jay-Keww/CitiTraining.git
 
-python3 -m venv venv
+py -m venv venv
 
 venv\Scripts\activate
 
@@ -28,7 +30,7 @@ python -m pip freeze > requirements.txt
 
 # github work flow
 
-## how to get changes from james's repo
+## how to get changes from JQ's repo
 
 git fetch upstream
 
